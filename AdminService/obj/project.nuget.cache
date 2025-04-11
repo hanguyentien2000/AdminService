@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TMxiLpnzOnM=",
+  "dgSpecHash": "lbuiZQGJV2M=",
   "success": true,
   "projectFilePath": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
