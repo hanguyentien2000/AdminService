@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Runtime;
+using AdminService.Business.User;
 using AdminService.Insfrastructure;
+using DataUtils;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Utils;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,8 +12,15 @@ var builder = WebApplication.CreateBuilder(args);
 var config = CommonUtils.GetConfiguration();
 var connectionString = config.GetConnectionString("PostgreSQLDatabase");
 
-builder.Services.AddDbContext<DataContext>(options =>
+builder.Services.AddDbContext<AdminDataContext>(options =>
     options.UseSqlServer(connectionString));
+
+builder.Services.AddScoped<IUserHandler>(provider =>
+{
+    var context = provider.GetRequiredService<AdminDataContext>();
+    var factory = new DatabaseFactory(context);
+    return new UserHandler(factory); // Constructor này cần overload nếu không dùng options
+});
 
 // Add services to the container.
 

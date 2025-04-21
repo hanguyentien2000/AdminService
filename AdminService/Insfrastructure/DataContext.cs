@@ -12,7 +12,6 @@ namespace AdminService.Insfrastructure
               new DebugLoggerProvider()
         });
 
-
         public AdminDataContext(DbContextOptions options) : base(options)
         {
         }

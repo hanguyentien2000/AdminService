@@ -1,16 +1,18 @@
 ﻿using AdminService.Business.User;
+using AdminService.Insfrastructure;
 using DataUtils;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
 namespace AdminService.Controllers.User
 {
     public class UserController : ControllerBase
-
     {
         private readonly IUserHandler _userHandler;
-        public UserController(IUserHandler userHandler)
+        public UserController(AdminDataContext context)
         {
-            _userHandler = userHandler;
+            var factory = new DatabaseFactory(context);
+            _userHandler = new UserHandler(factory);
         }
 
         [HttpGet]

@@ -10,61 +10,60 @@ namespace AdminService.Business.User
     {
         private readonly IUnitOfWork _unitOfWork;
 
-        public UserHandler(DbContextOptions<AdminDataContext> options)
+        public UserHandler(IDatabaseFactory factory)
         {
             // Khởi tạo thủ công các thành phần dùng chung
-            var context = new AdminDataContext(options);
-            var factory = new DatabaseFactory(context);
+
             _unitOfWork = new UnitOfWork(factory);
         }
 
-        public async Task<DataUtils.Response<IEnumerable<UserModel>>> GetAllCustomersAsync()
+        public async Task<DataUtils.Response<IEnumerable<UserModel>>> GetAllUsersAsync()
         {
             var repo = _unitOfWork.Repository<UserModel>();
             var result = await repo.GetAllAsync();
             return DataUtils.Response<IEnumerable<UserModel>>.Ok(result.ToList());
         }
-        public async Task<DataUtils.Response<UserModel>> GetCustomerByIdAsync(Guid id)
+        public async Task<DataUtils.Response<UserModel>> GetUserByIdAsync(Guid id)
         {
             var repo = _unitOfWork.Repository<UserModel>();
-            var customer = await repo.GetByIdAsync(id);
-            return customer is null
-       ? DataUtils.Response<UserModel>.Fail("Customer not found")
-       : DataUtils.Response<UserModel>.Ok(customer);
+            var User = await repo.GetByIdAsync(id);
+            return User is null
+       ? DataUtils.Response<UserModel>.Fail("User not found")
+       : DataUtils.Response<UserModel>.Ok(User);
         }
 
-        public async Task<DataUtils.Response<UserModel>> CreateCustomerAsync(UserModel customer)
+        public async Task<DataUtils.Response<UserModel>> CreateUserAsync(UserModel User)
         {
             var repo = _unitOfWork.Repository<UserModel>();
-            await repo.AddAsync(customer);
+            await repo.AddAsync(User);
             var success = await _unitOfWork.CommitAsync() > 0;
             return success
-       ? DataUtils.Response<UserModel>.Ok(customer, "Customer created successfully")
-       : DataUtils.Response<UserModel>.Fail("Failed to create customer");
+       ? DataUtils.Response<UserModel>.Ok(User, "User created successfully")
+       : DataUtils.Response<UserModel>.Fail("Failed to create User");
         }
 
-        public async Task<DataUtils.Response<UserModel>> UpdateCustomerAsync(UserModel customer)
+        public async Task<DataUtils.Response<UserModel>> UpdateUserAsync(UserModel User)
         {
             var repo = _unitOfWork.Repository<UserModel>();
-            repo.Update(customer);
+            repo.Update(User);
             var success = await _unitOfWork.CommitAsync() > 0;
             return success
-                ? DataUtils.Response<UserModel>.Ok(customer, "Customer updated successfully")
-                : DataUtils.Response<UserModel>.Fail("Failed to update customer");
+                ? DataUtils.Response<UserModel>.Ok(User, "User updated successfully")
+                : DataUtils.Response<UserModel>.Fail("Failed to update User");
         }
 
-        public async Task<DataUtils.Response<bool>> DeleteCustomerAsync(Guid customerId)
+        public async Task<DataUtils.Response<bool>> DeleteUserAsync(Guid UserId)
         {
             var repo = _unitOfWork.Repository<UserModel>();
-            var customer = await repo.GetByIdAsync(customerId);
-            if (customer == null)
-                return DataUtils.Response<bool>.Fail("Customer not found");
+            var User = await repo.GetByIdAsync(UserId);
+            if (User == null)
+                return DataUtils.Response<bool>.Fail("User not found");
 
-            repo.Delete(customer);
+            repo.Delete(User);
             var success = await _unitOfWork.CommitAsync() > 0;
             return success
-                ? DataUtils.Response<bool>.Ok(true, "Customer deleted")
-                : DataUtils.Response<bool>.Fail("Failed to delete customer");
+                ? DataUtils.Response<bool>.Ok(true, "User deleted")
+                : DataUtils.Response<bool>.Fail("Failed to delete User");
         }
     }
 }
