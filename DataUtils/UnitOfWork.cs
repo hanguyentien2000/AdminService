@@ -9,42 +9,36 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataUtils
 {
-
     /// <summary>
-    ///   kết hợp Database Factory với Unit of Work để:     Tạo DbContext một cách chủ động, có kiểm soát  Tái sử dụng context nếu đã tồn tại(giống scoped DI behavior
+    ///   kết hợp Database Factory với Unit of Work để: Tạo DbContext một cách chủ động, có kiểm soát  Tái sử dụng context nếu đã tồn tại(giống scoped DI behavior
     ///
     /// </summary>
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly IDatabaseFactory _dbFactory;
-        private readonly ConcurrentDictionary<Type, object> _repositories = new();
+        private readonly DbContext _context;
+        private readonly IDatabaseFactory _databaseFactory;
+        private readonly Dictionary<Type, object> _repositories = new();
 
-        public UnitOfWork(IDatabaseFactory dbFactory)
+        public UnitOfWork(IDatabaseFactory databaseFactory)
         {
-            _dbFactory = dbFactory;
+            _databaseFactory = databaseFactory;
+            _context = _databaseFactory.GetDbContext();
         }
 
-        public IRepository<TEntity> Repository<TEntity>() where TEntity : class
+        public IRepository<T> Repository<T>() where T : class, IEntity
         {
-            var type = typeof(TEntity);
-            if (_repositories.TryGetValue(type, out var repo))
+            if (_repositories.TryGetValue(typeof(T), out var repo))
             {
-                return (IRepository<TEntity>)repo;
+                return (IRepository<T>)repo!;
             }
 
-            var repoInstance = new Repository<TEntity>(_dbFactory.GetDbContext());
-            _repositories[type] = repoInstance;
-            return repoInstance;
+            var repository = new BaseRepository<T>(_databaseFactory);
+            _repositories[typeof(T)] = repository;
+            return repository;
         }
 
-        public async Task<int> SaveChangesAsync()
-        {
-            return await _dbFactory.GetDbContext().SaveChangesAsync();
-        }
+        public async Task<int> CommitAsync() => await _context.SaveChangesAsync();
 
-        public void Dispose()
-        {
-            _dbFactory.Dispose();
-        }
+        public void Dispose() => _context.Dispose();
     }
 }

@@ -1,30 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace DataUtils
 {
-    public class DatabaseFactory<TContext> : IDatabaseFactory where TContext : DbContext
+    public class DatabaseFactory : IDatabaseFactory
     {
-        private readonly Func<TContext> _contextFactory;
-        private TContext _dbContext;
+        private readonly DbContext _dbContext;
 
-        public DatabaseFactory(Func<TContext> contextFactory)
+        public DatabaseFactory(DbContext dbContext)
         {
-            _contextFactory = contextFactory;
+            _dbContext = dbContext;
         }
 
-        public DbContext GetDbContext()
-        {
-            return _dbContext ??= _contextFactory();
-        }
-
-        public void Dispose()
-        {
-            _dbContext?.Dispose();
-        }
+        public DbContext GetDbContext() => _dbContext;
     }
 }

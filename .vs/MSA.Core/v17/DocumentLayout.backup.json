@@ -7,6 +7,62 @@
       "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\insfrastructure\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\insfrastructure\\databasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\insfrastructure\\databasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|e:\\projectsample\\adminservice\\datautils\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|solutionrelative:datautils\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|e:\\projectsample\\adminservice\\datautils\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|solutionrelative:datautils\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|e:\\projectsample\\adminservice\\datautils\\databasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|solutionrelative:datautils\\databasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|e:\\projectsample\\adminservice\\datautils\\idatabasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|solutionrelative:datautils\\idatabasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|e:\\projectsample\\adminservice\\datautils\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|solutionrelative:datautils\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|e:\\projectsample\\adminservice\\datautils\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|solutionrelative:datautils\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\business\\user\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\user\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\business\\user\\iuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\user\\iuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|e:\\projectsample\\adminservice\\utils\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|solutionrelative:utils\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\business\\user\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\user\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|e:\\projectsample\\adminservice\\utils\\commonutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|solutionrelative:utils\\commonutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\adminservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\adminservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\adminservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\adminservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
@@ -19,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\insfrastructure\\databases\\idmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\insfrastructure\\databasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\insfrastructure\\databasefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,16 +83,8 @@
       "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|e:\\projectsample\\adminservice\\utils\\commonutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|solutionrelative:utils\\commonutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|e:\\projectsample\\adminservice\\utils\\utils.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|solutionrelative:utils\\utils.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\adminservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\adminservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,63 +94,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminService.http",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.http",
-              "RelativeDocumentMoniker": "AdminService\\AdminService.http",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.http",
-              "RelativeToolTip": "AdminService\\AdminService.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-10T17:54:53.303Z",
+              "DocumentIndex": 4,
+              "Title": "DatabaseFactory.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\DatabaseFactory.cs",
+              "RelativeDocumentMoniker": "DataUtils\\DatabaseFactory.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\DatabaseFactory.cs",
+              "RelativeToolTip": "DataUtils\\DatabaseFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T18:01:07.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "AdminService\\WeatherForecast.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\WeatherForecast.cs",
-              "RelativeToolTip": "AdminService\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "DataUtils\\UnitOfWork.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\UnitOfWork.cs",
+              "RelativeToolTip": "DataUtils\\UnitOfWork.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAwAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T17:22:32.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IdmUser.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
-              "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
-              "RelativeToolTip": "AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAswAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T17:14:50.995Z",
+              "WhenOpened": "2025-04-11T17:54:58.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CommonUtils.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\CommonUtils.cs",
-              "RelativeDocumentMoniker": "Utils\\CommonUtils.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\CommonUtils.cs",
-              "RelativeToolTip": "Utils\\CommonUtils.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvwQAAAAjAAAAAAAAAA==",
+              "Title": "Repository.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\Repository.cs",
+              "RelativeDocumentMoniker": "DataUtils\\Repository.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\Repository.cs",
+              "RelativeToolTip": "DataUtils\\Repository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:28:18.508Z",
+              "WhenOpened": "2025-04-11T17:52:26.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "DataUtils\\IUnitOfWork.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\IUnitOfWork.cs",
+              "RelativeToolTip": "DataUtils\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:51:49.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDatabaseFactory.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\IDatabaseFactory.cs",
+              "RelativeDocumentMoniker": "DataUtils\\IDatabaseFactory.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\IDatabaseFactory.cs*",
+              "RelativeToolTip": "DataUtils\\IDatabaseFactory.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:58:10.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\IRepository.cs",
+              "RelativeDocumentMoniker": "DataUtils\\IRepository.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\IRepository.cs",
+              "RelativeToolTip": "DataUtils\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:45:12.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DatabaseFactory.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\DatabaseFactory.cs",
               "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\DatabaseFactory.cs",
@@ -125,14 +195,99 @@
               "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\DataContext.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\DataContext.cs",
               "RelativeToolTip": "AdminService\\Insfrastructure\\DataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T16:20:23.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "UserHandler.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\UserHandler.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\User\\UserHandler.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\UserHandler.cs",
+              "RelativeToolTip": "AdminService\\Business\\User\\UserHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:21:26.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserHandler.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\IUserHandler.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\User\\IUserHandler.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\IUserHandler.cs",
+              "RelativeToolTip": "AdminService\\Business\\User\\IUserHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:25:56.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AutoMapper.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\AutoMapper.cs",
+              "RelativeDocumentMoniker": "Utils\\AutoMapper.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\AutoMapper.cs",
+              "RelativeToolTip": "Utils\\AutoMapper.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:53:55.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\UserModel.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\User\\UserModel.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\UserModel.cs",
+              "RelativeToolTip": "AdminService\\Business\\User\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:26:13.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Controllers\\User\\UserController.cs",
+              "RelativeDocumentMoniker": "AdminService\\Controllers\\User\\UserController.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Controllers\\User\\UserController.cs",
+              "RelativeToolTip": "AdminService\\Controllers\\User\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:11:11.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IdmUser.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
+              "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
+              "RelativeToolTip": "AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T17:14:50.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CommonUtils.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\CommonUtils.cs",
+              "RelativeDocumentMoniker": "Utils\\CommonUtils.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\CommonUtils.cs",
+              "RelativeToolTip": "Utils\\CommonUtils.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:28:18.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Program.cs",
               "RelativeDocumentMoniker": "AdminService\\Program.cs",
@@ -140,12 +295,11 @@
               "RelativeToolTip": "AdminService\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:12:14.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:12:14.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\appsettings.json",
               "RelativeDocumentMoniker": "AdminService\\appsettings.json",
@@ -153,34 +307,55 @@
               "RelativeToolTip": "AdminService\\appsettings.json",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-10T16:12:12.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:12:12.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Utils",
+              "DocumentIndex": 20,
+              "Title": "Utils.csproj",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj",
               "RelativeDocumentMoniker": "Utils\\Utils.csproj",
               "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj",
               "RelativeToolTip": "Utils\\Utils.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-10T16:30:22.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:30:22.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AdminService",
+              "DocumentIndex": 14,
+              "Title": "AdminService.csproj",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj",
               "RelativeDocumentMoniker": "AdminService\\AdminService.csproj",
               "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj",
               "RelativeToolTip": "AdminService\\AdminService.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-10T16:16:57.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:16:57.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "AdminService\\WeatherForecast.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\WeatherForecast.cs",
+              "RelativeToolTip": "AdminService\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T17:22:32.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminService.http",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.http",
+              "RelativeDocumentMoniker": "AdminService\\AdminService.http",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.http",
+              "RelativeToolTip": "AdminService\\AdminService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-10T17:54:53.303Z"
             }
           ]
         }

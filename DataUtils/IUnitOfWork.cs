@@ -8,7 +8,7 @@ namespace DataUtils
 {
     public interface IUnitOfWork : IDisposable
     {
-        IRepository<TEntity> Repository<TEntity>() where TEntity : class;
-        Task<int> SaveChangesAsync();
+        IRepository<T> Repository<T>() where T : class, IEntity;
+        Task<int> CommitAsync();
     }
 }

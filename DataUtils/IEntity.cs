@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 
 namespace DataUtils
 {
-    public interface IDatabaseFactory
+    public interface IEntity
     {
-        DbContext GetDbContext();
+        Guid Id { get; set; }
     }
 }
-    
