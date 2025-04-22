@@ -1,0 +1,13 @@
+D:\MSA\AdminService\DataUtils\bin\Debug\net8.0\DataUtils.deps.json
+D:\MSA\AdminService\DataUtils\bin\Debug\net8.0\DataUtils.dll
+D:\MSA\AdminService\DataUtils\bin\Debug\net8.0\DataUtils.pdb
+D:\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.csproj.AssemblyReference.cache
+D:\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.GeneratedMSBuildEditorConfig.editorconfig
+D:\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.AssemblyInfoInputs.cache
+D:\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.AssemblyInfo.cs
+D:\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.csproj.CoreCompileInputs.cache
+D:\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.sourcelink.json
+D:\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.dll
+D:\MSA\AdminService\DataUtils\obj\Debug\net8.0\refint\DataUtils.dll
+D:\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.pdb
+D:\MSA\AdminService\DataUtils\obj\Debug\net8.0\ref\DataUtils.dll

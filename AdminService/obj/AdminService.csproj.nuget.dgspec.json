@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj": {}
+    "D:\\MSA\\AdminService\\AdminService\\AdminService.csproj": {}
   },
   "projects": {
-    "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj": {
+    "D:\\MSA\\AdminService\\AdminService\\AdminService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj",
+        "projectUniqueName": "D:\\MSA\\AdminService\\AdminService\\AdminService.csproj",
         "projectName": "AdminService",
-        "projectPath": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjectSample\\AdminService\\AdminService\\obj\\",
+        "projectPath": "D:\\MSA\\AdminService\\AdminService\\AdminService.csproj",
+        "packagesPath": "C:\\Users\\hant\\.nuget\\packages\\",
+        "outputPath": "D:\\MSA\\AdminService\\AdminService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj": {
-                "projectPath": "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj"
+              "D:\\MSA\\AdminService\\DataUtils\\DataUtils.csproj": {
+                "projectPath": "D:\\MSA\\AdminService\\DataUtils\\DataUtils.csproj"
               },
-              "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj": {
-                "projectPath": "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj"
+              "D:\\MSA\\AdminService\\Utils\\Utils.csproj": {
+                "projectPath": "D:\\MSA\\AdminService\\Utils\\Utils.csproj"
               }
             }
           }
@@ -50,8 +51,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -93,24 +93,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj": {
+    "D:\\MSA\\AdminService\\DataUtils\\DataUtils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj",
+        "projectUniqueName": "D:\\MSA\\AdminService\\DataUtils\\DataUtils.csproj",
         "projectName": "DataUtils",
-        "projectPath": "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjectSample\\AdminService\\DataUtils\\obj\\",
+        "projectPath": "D:\\MSA\\AdminService\\DataUtils\\DataUtils.csproj",
+        "packagesPath": "C:\\Users\\hant\\.nuget\\packages\\",
+        "outputPath": "D:\\MSA\\AdminService\\DataUtils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,6 +119,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -136,8 +137,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -164,24 +164,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj": {
+    "D:\\MSA\\AdminService\\Utils\\Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj",
+        "projectUniqueName": "D:\\MSA\\AdminService\\Utils\\Utils.csproj",
         "projectName": "Utils",
-        "projectPath": "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjectSample\\AdminService\\Utils\\obj\\",
+        "projectPath": "D:\\MSA\\AdminService\\Utils\\Utils.csproj",
+        "packagesPath": "C:\\Users\\hant\\.nuget\\packages\\",
+        "outputPath": "D:\\MSA\\AdminService\\Utils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -190,6 +190,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -207,8 +208,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -259,7 +259,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

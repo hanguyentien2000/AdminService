@@ -25,7 +25,7 @@ namespace DataUtils
             _context = _databaseFactory.GetDbContext();
         }
 
-        public IRepository<T> Repository<T>() where T : class, IEntity
+        public IRepository<T> GetRepository<T>() where T : class
         {
             if (_repositories.TryGetValue(typeof(T), out var repo))
             {

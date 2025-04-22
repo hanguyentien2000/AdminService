@@ -42,17 +42,17 @@ namespace AdminService.Insfrastructure.Databases
         public bool IsLockedOut { get; set; }
         [StringLength(16)]
         public string MobileAlias { get; set; }
-        [MaxLength(500)]
-        public bool IsAnonymous { get; set; }
+
         [MaxLength(1024)]
         public string Avatar { get; set; }
         [MaxLength(500)]
         public string Address { get; set; }
         public DateTime LastActivityDate { get; set; }
-        public DateTime? NgayCapCMND { get; set; }
-        public string NoiCapCMND { get; set; }
+        public DateTime? IdentityDate { get; set; }
+        public string IdentityAddress { get; set; }
         [MaxLength(1)]
         public string Gender { get; set; }
+
         //base
         public Guid? CreatedByUserId { get; set; }
         public string CreatedByFullName { get; set; }

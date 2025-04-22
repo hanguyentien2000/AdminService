@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataUtils
 {
-    public class BaseRepository<T> : IRepository<T> where T : class, IEntity
+    public class BaseRepository<T> : IRepository<T> where T : class
     {
         protected readonly DbContext _context;
         protected readonly DbSet<T> _dbSet;
