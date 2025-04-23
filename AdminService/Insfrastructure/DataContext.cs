@@ -17,7 +17,8 @@ namespace AdminService.Insfrastructure
         }
 
         public DbSet<IdmUsers> IdmUsers { get; set; }  // Ví dụ entity
-
+        public DbSet<IdmRoles> IdmRoles { get; set; }
+        public DbSet<IdmUsersInRoles> IdmUsersInRoles { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

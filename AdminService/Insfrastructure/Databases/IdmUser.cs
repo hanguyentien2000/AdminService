@@ -40,8 +40,6 @@ namespace AdminService.Insfrastructure.Databases
         [StringLength(128)]
         public string PasswordSalt { get; set; }
         public bool IsLockedOut { get; set; }
-        [StringLength(16)]
-        public string MobileAlias { get; set; }
 
         [MaxLength(1024)]
         public string Avatar { get; set; }
@@ -61,8 +59,6 @@ namespace AdminService.Insfrastructure.Databases
         public string LastModifiedByFullName { get; set; }
         public DateTime? LastModifiedOnDate { get; set; }
 
-        //public virtual ICollection<IdmUsersInOrganization> IdmUsersInOrganization { get; set; }
-        //public virtual ICollection<IdmUsersInRoles> IdmUsersInRoles { get; set; }
-        //public virtual ICollection<IdmRightsOfUser> IdmRightsOfUser { get; set; }
+        public virtual ICollection<IdmUsersInRoles> IdmUsersInRoles { get; set; }
     }
 }

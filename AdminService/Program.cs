@@ -9,12 +9,13 @@ using Utils;
 
 var builder = WebApplication.CreateBuilder(args);
 // Dùng ConfigHelper để lấy chuỗi kết nối
-var config = CommonUtils.GetConfiguration();
-var connectionString = config.GetConnectionString("PostgreSQLDatabase");
-
+//var config = CommonUtils.GetConfiguration();
+//var connectionString = config.GetConnectionString("MSSQLDatabase");
+// Add services to the container.
 builder.Services.AddDbContext<AdminDataContext>(options =>
-    options.UseSqlServer(connectionString));
-
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+Console.WriteLine($"Connection String: {connectionString}");  
 builder.Services.AddScoped<IUserHandler>(provider =>
 {
     var context = provider.GetRequiredService<AdminDataContext>();
@@ -23,7 +24,6 @@ builder.Services.AddScoped<IUserHandler>(provider =>
 });
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
