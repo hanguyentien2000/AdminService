@@ -35,13 +35,13 @@ namespace AdminService.Controllers.User
         public async Task<ActionResult<Response<UserModel>>> Create(UserModel User)
         {
             var result = await _userHandler.CreateUserAsync(User);
-            return result.Success ? CreatedAtAction(nameof(GetById), new { id = User.Id }, result) : BadRequest(result);
+            return result.Success ? CreatedAtAction(nameof(GetById), new { id = User.UserId }, result) : BadRequest(result);
         }
 
         [AllowAnonymous, HttpPut, Route("update")]
         public async Task<ActionResult<Response<UserModel>>> Update(Guid id, UserModel User)
         {
-            if (id != User.Id)
+            if (id != User.UserId)
                 return BadRequest(Response<UserModel>.Fail("Mismatched ID"));
 
             var result = await _userHandler.UpdateUserAsync(User);
