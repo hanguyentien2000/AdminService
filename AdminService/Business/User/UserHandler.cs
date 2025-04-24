@@ -26,23 +26,52 @@ namespace AdminService.Business.User
        : Response<IdmUsers>.Ok(User);
         }
 
-        public async Task<Response<UserModel>> CreateUserAsync(UserModel User)
+        public async Task<Response<IdmUsers>> CreateUserAsync(UserModel model)
         {
-            var repo = _unitOfWork.GetRepository<UserModel>();
-            await repo.AddAsync(User);
-            var success = await _unitOfWork.CommitAsync() > 0;
-            return success
-       ? Response<UserModel>.Ok(User, "User created successfully")
-       : Response<UserModel>.Fail("Failed to create User");
+            var userCreate = new IdmUsers();
+            userCreate.UserId = Guid.NewGuid();
+            userCreate.UserName = model.UserName;
+            userCreate.FullName = model.FullName;
+            userCreate.Address = model.Address;
+            userCreate.Email = model.Email;
+            userCreate.OtherEmail = model.OtherEmail;
+            userCreate.IdentityNumber = model.IdentityNumber;
+            userCreate.Birthday = model.Birthday;
+            userCreate.Gender = model.Gender;
+            userCreate.MobilePin = model.MobilePin;
+            userCreate.NickName = model.NickName;
+            userCreate.OtherEmail = model.OtherEmail;
+            userCreate.Avatar = model.Avatar;
+
+            userCreate.IdmUsersInRoles = model.IdmUsersInRoles;
+            foreach (var item in model.IdmUsersInRoles)
+            {
+                var uio = new IdmUsersInRoles();
+                uio.UserId = userCreate.UserId;
+                uio.RoleId = item.RoleId;
+                uio.CreateDate = DateTime.Now;
+                var repoUio = _unitOfWork.GetRepository<IdmUsersInRoles>();
+                await repoUio.AddAsync(uio);
+            }
+            userCreate.CreatedByFullName = model.CreatedByFullName;
+            userCreate.CreatedByUserId = model.CreatedByUserId;
+            userCreate.CreatedOnDate = DateTime.Now;
+
+            var repo = _unitOfWork.GetRepository<IdmUsers>();
+            await repo.AddAsync(userCreate);
+            if (await _unitOfWork.CommitAsync() > 0)
+                return Response<IdmUsers>.Ok(userCreate, "User created successfully");
+            else
+                return Response<IdmUsers>.Fail("Failed to create User");
         }
 
-        public async Task<Response<UserModel>> UpdateUserAsync(UserModel User)
+        public async Task<Response<UserModel>> UpdateUserAsync(UserModel model)
         {
             var repo = _unitOfWork.GetRepository<UserModel>();
-            repo.Update(User);
+            repo.Update(model);
             var success = await _unitOfWork.CommitAsync() > 0;
             return success
-                ? Response<UserModel>.Ok(User, "User updated successfully")
+                ? Response<UserModel>.Ok(model, "User updated successfully")
                 : Response<UserModel>.Fail("Failed to update User");
         }
 
