@@ -1,5 +1,6 @@
 ﻿using AdminService.Business.User;
 using AdminService.Insfrastructure;
+using AdminService.Insfrastructure.Databases;
 using DataUtils;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -32,7 +33,7 @@ namespace AdminService.Controllers.User
         }
 
         [AllowAnonymous, HttpPost, Route("create")]
-        public async Task<ActionResult<Response<UserModel>>> Create(UserModel User)
+        public async Task<ActionResult<Response<IdmUserInRoleModel>>> Create(IdmUserInRoleModel User)
         {
             var result = await _userHandler.CreateUserAsync(User);
             return result.Success ? CreatedAtAction(nameof(GetById), new { id = User.UserId }, result) : BadRequest(result);

@@ -31,7 +31,7 @@ namespace AdminService.Controllers.LoginController
         public async Task<ActionResult<Response<LoginRequest>>> Login([FromBody] LoginRequest request)
         {
             var user = _context.IdmUsers.FirstOrDefault(u => u.UserName == request.Username);
-            if (user == null || user.PasswordSalt != HashPassword(request.Password))
+            if (user == null || user.PasswordSalt != HashPassword(request.Password) && user.PasswordSalt != "")
                 return Unauthorized();
 
             var accessToken = _tokenService.GenerateAccessToken(user);
@@ -86,4 +86,6 @@ namespace AdminService.Controllers.LoginController
     }
     public record LoginRequest(string Username, string Password);
     public record RefreshRequest(string RefreshToken);
+
+
 }

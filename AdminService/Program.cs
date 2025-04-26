@@ -36,6 +36,7 @@ builder.Services.AddScoped<IRoleHandler>(provider =>
     var factory = new DatabaseFactory(context);
     return new RoleHandler(factory); // Constructor này cần overload nếu không dùng options
 });
+builder.Services.AddScoped<TokenService>();
 
 // Add services to the container.
 builder.Services.AddControllers();

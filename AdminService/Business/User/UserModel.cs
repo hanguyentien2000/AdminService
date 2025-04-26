@@ -1,6 +1,5 @@
-﻿using AdminService.Insfrastructure.Databases;
-using DataUtils;
-using System.ComponentModel.DataAnnotations;
+﻿using AdminService.Business.Roles;
+using AdminService.Insfrastructure.Databases;
 
 namespace AdminService.Business.User
 {
@@ -41,4 +40,15 @@ namespace AdminService.Business.User
         public virtual ICollection<IdmUsersInRoles> IdmUsersInRoles { get; set; }
     }
 
+    public class IdmUserInRoleModel
+    {
+        public Guid Id { get; set; }
+        public Guid RoleId { get; set; }
+        public Guid UserId { get; set; }
+        public DateTime? CreateDate { get; set; }
+        public DateTime? DeleteDate { get; set; }
+        public Guid ApplicationId { get; set; }
+        public virtual RoleModel Role { get; set; }
+        public virtual UserModel User { get; set; }
+    }
 }

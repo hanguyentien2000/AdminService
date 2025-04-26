@@ -26,44 +26,39 @@ namespace AdminService.Business.User
        : Response<IdmUsers>.Ok(User);
         }
 
-        public async Task<Response<IdmUsers>> CreateUserAsync(UserModel model)
+        public async Task<Response<IdmUserInRoleModel>> CreateUserAsync(IdmUserInRoleModel model)
         {
-            var userCreate = new IdmUsers();
-            userCreate.UserId = Guid.NewGuid();
-            userCreate.UserName = model.UserName;
-            userCreate.FullName = model.FullName;
-            userCreate.Address = model.Address;
-            userCreate.Email = model.Email;
-            userCreate.OtherEmail = model.OtherEmail;
-            userCreate.IdentityNumber = model.IdentityNumber;
-            userCreate.Birthday = model.Birthday;
-            userCreate.Gender = model.Gender;
-            userCreate.MobilePin = model.MobilePin;
-            userCreate.NickName = model.NickName;
-            userCreate.OtherEmail = model.OtherEmail;
-            userCreate.Avatar = model.Avatar;
+            var userInRole = new IdmUsersInRoles();
+            userInRole.Id = Guid.NewGuid();
+            userInRole.UserId = Guid.NewGuid();
+            userInRole.RoleId = model.RoleId;
+            userInRole.CreateDate = DateTime.Now;
+            userInRole.DeleteDate = null;
+            userInRole.User = new IdmUsers();
 
-            userCreate.IdmUsersInRoles = model.IdmUsersInRoles;
-            foreach (var item in model.IdmUsersInRoles)
-            {
-                var uio = new IdmUsersInRoles();
-                uio.Id = Guid.NewGuid();
-                uio.UserId = userCreate.UserId;
-                uio.RoleId = item.RoleId;
-                uio.CreateDate = DateTime.Now;
-                var repoUio = _unitOfWork.GetRepository<IdmUsersInRoles>();
-                await repoUio.AddAsync(uio);
-            }
-            userCreate.CreatedByFullName = model.CreatedByFullName;
-            userCreate.CreatedByUserId = model.CreatedByUserId;
-            userCreate.CreatedOnDate = DateTime.Now;
+            userInRole.User.UserName = model.User.UserName;
+            userInRole.User.FullName = model.User.FullName;
+            userInRole.User.Address = model.User.Address;
+            userInRole.User.Email = model.User.Email;
+            userInRole.User.OtherEmail = model.User.OtherEmail;
+            userInRole.User.IdentityNumber = model.User.IdentityNumber;
+            userInRole.User.Birthday = model.User.Birthday;
+            userInRole.User.Gender = model.User.Gender;
+            userInRole.User.MobilePin = model.User.MobilePin;
+            userInRole.User.NickName = model.User.NickName;
+            userInRole.User.OtherEmail = model.User.OtherEmail;
+            userInRole.User.Avatar = model.User.Avatar;
 
-            var repo = _unitOfWork.GetRepository<IdmUsers>();
-            await repo.AddAsync(userCreate);
+            userInRole.User.CreatedByFullName = userInRole.User.FullName;
+            userInRole.User.CreatedByUserId = Guid.Empty;
+            userInRole.User.CreatedOnDate = DateTime.Now;
+
+            var repo = _unitOfWork.GetRepository<IdmUsersInRoles>();
+            await repo.AddAsync(userInRole);
             if (await _unitOfWork.CommitAsync() > 0)
-                return Response<IdmUsers>.Ok(userCreate, "User created successfully");
+                return Response<IdmUserInRoleModel>.Ok(null, "User created successfully");
             else
-                return Response<IdmUsers>.Fail("Failed to create User");
+                return Response<IdmUserInRoleModel>.Fail("Failed to create User");
         }
 
         public async Task<Response<UserModel>> UpdateUserAsync(UserModel model)

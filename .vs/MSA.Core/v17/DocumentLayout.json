@@ -3,60 +3,64 @@
   "WorkspaceRootPath": "D:\\MSA\\AdminService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\business\\user\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\user\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\business\\roles\\rolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\roles\\rolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\controllers\\role\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\controllers\\role\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\business\\roles\\irolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\roles\\irolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\controllers\\logincontroller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\controllers\\logincontroller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\business\\jwt\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\jwt\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\business\\roles\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\roles\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\insfrastructure\\databases\\idmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\insfrastructure\\databases\\idmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\insfrastructure\\databases\\idmuserinroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\insfrastructure\\databases\\idmuserinroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\business\\user\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\user\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\business\\user\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\user\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\insfrastructure\\databases\\idmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\insfrastructure\\databases\\idmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\migrations\\20250425090905__updaterefreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\migrations\\20250425090905__updaterefreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\business\\user\\iuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\user\\iuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\controllers\\logincontroller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\controllers\\logincontroller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\business\\user\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\user\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\business\\roles\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\roles\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\business\\roles\\rolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\roles\\rolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\insfrastructure\\databases\\idmuserinroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\insfrastructure\\databases\\idmuserinroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\controllers\\role\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\controllers\\role\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\business\\roles\\irolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\roles\\irolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\insfrastructure\\databases\\idmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\insfrastructure\\databases\\idmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\migrations\\20250425090905__updaterefreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\migrations\\20250425090905__updaterefreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|d:\\msa\\adminservice\\adminservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -70,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +86,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Business\\Jwt\\Token\\TokenService.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\Jwt\\Token\\TokenService.cs",
+              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Business\\Jwt\\Token\\TokenService.cs",
+              "RelativeToolTip": "AdminService\\Business\\Jwt\\Token\\TokenService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAWwC4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:54:04.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Program.cs",
+              "RelativeDocumentMoniker": "AdminService\\Program.cs",
+              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Program.cs",
+              "RelativeToolTip": "AdminService\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAASwCYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:02:28.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Business\\User\\UserModel.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\User\\UserModel.cs",
+              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Business\\User\\UserModel.cs",
+              "RelativeToolTip": "AdminService\\Business\\User\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:37:00.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Controllers\\LoginController\\LoginController.cs",
+              "RelativeDocumentMoniker": "AdminService\\Controllers\\LoginController\\LoginController.cs",
+              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Controllers\\LoginController\\LoginController.cs",
+              "RelativeToolTip": "AdminService\\Controllers\\LoginController\\LoginController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:22:43.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Controllers\\User\\UserController.cs",
+              "RelativeDocumentMoniker": "AdminService\\Controllers\\User\\UserController.cs",
+              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Controllers\\User\\UserController.cs",
+              "RelativeToolTip": "AdminService\\Controllers\\User\\UserController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAD4vyUAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:24:41.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UserHandler.cs",
+              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Business\\User\\UserHandler.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\User\\UserHandler.cs",
+              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Business\\User\\UserHandler.cs",
+              "RelativeToolTip": "AdminService\\Business\\User\\UserHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:57:17.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleHandler.cs",
+              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Business\\Roles\\RoleHandler.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\Roles\\RoleHandler.cs",
+              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Business\\Roles\\RoleHandler.cs",
+              "RelativeToolTip": "AdminService\\Business\\Roles\\RoleHandler.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAzwCgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:30:39.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "RoleController.cs",
               "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Controllers\\Role\\RoleController.cs",
               "RelativeDocumentMoniker": "AdminService\\Controllers\\Role\\RoleController.cs",
@@ -95,20 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoleHandler.cs",
-              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Business\\Roles\\RoleHandler.cs",
-              "RelativeDocumentMoniker": "AdminService\\Business\\Roles\\RoleHandler.cs",
-              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Business\\Roles\\RoleHandler.cs",
-              "RelativeToolTip": "AdminService\\Business\\Roles\\RoleHandler.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAYwCgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:30:39.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "IRoleHandler.cs",
               "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Business\\Roles\\IRoleHandler.cs",
               "RelativeDocumentMoniker": "AdminService\\Business\\Roles\\IRoleHandler.cs",
@@ -116,25 +198,50 @@
               "RelativeToolTip": "AdminService\\Business\\Roles\\IRoleHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:30:27.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T09:30:27.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RoleModel.cs",
-              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Business\\Roles\\RoleModel.cs",
-              "RelativeDocumentMoniker": "AdminService\\Business\\Roles\\RoleModel.cs",
-              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Business\\Roles\\RoleModel.cs",
-              "RelativeToolTip": "AdminService\\Business\\Roles\\RoleModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAkwBEAAAAIAAAA",
+              "DocumentIndex": 4,
+              "Title": "IdmUser.cs",
+              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
+              "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
+              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
+              "RelativeToolTip": "AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAqwDoAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:30:12.863Z",
+              "WhenOpened": "2025-04-25T08:52:42.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "IUserHandler.cs",
+              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Business\\User\\IUserHandler.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\User\\IUserHandler.cs",
+              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Business\\User\\IUserHandler.cs",
+              "RelativeToolTip": "AdminService\\Business\\User\\IUserHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T03:07:07.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IdmUserInRoles.cs",
+              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUserInRoles.cs",
+              "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\Databases\\IdmUserInRoles.cs",
+              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUserInRoles.cs",
+              "RelativeToolTip": "AdminService\\Insfrastructure\\Databases\\IdmUserInRoles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:17:43.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "IdmRoles.cs",
               "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmRoles.cs",
               "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\Databases\\IdmRoles.cs",
@@ -142,77 +249,24 @@
               "RelativeToolTip": "AdminService\\Insfrastructure\\Databases\\IdmRoles.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:25:24.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T09:25:24.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IdmUserInRoles.cs",
-              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUserInRoles.cs",
-              "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\Databases\\IdmUserInRoles.cs",
-              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUserInRoles.cs",
-              "RelativeToolTip": "AdminService\\Insfrastructure\\Databases\\IdmUserInRoles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "DocumentIndex": 8,
+              "Title": "RoleModel.cs",
+              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Business\\Roles\\RoleModel.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\Roles\\RoleModel.cs",
+              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Business\\Roles\\RoleModel.cs",
+              "RelativeToolTip": "AdminService\\Business\\Roles\\RoleModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:17:43.744Z",
+              "WhenOpened": "2025-04-25T09:30:12.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Program.cs",
-              "RelativeDocumentMoniker": "AdminService\\Program.cs",
-              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Program.cs",
-              "RelativeToolTip": "AdminService\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAASwBYAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:02:28.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserHandler.cs",
-              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Business\\User\\UserHandler.cs",
-              "RelativeDocumentMoniker": "AdminService\\Business\\User\\UserHandler.cs",
-              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Business\\User\\UserHandler.cs",
-              "RelativeToolTip": "AdminService\\Business\\User\\UserHandler.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAArwCsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:57:17.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Controllers\\User\\UserController.cs",
-              "RelativeDocumentMoniker": "AdminService\\Controllers\\User\\UserController.cs",
-              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Controllers\\User\\UserController.cs",
-              "RelativeToolTip": "AdminService\\Controllers\\User\\UserController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAwCQAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:24:41.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Business\\Jwt\\Token\\TokenService.cs",
-              "RelativeDocumentMoniker": "AdminService\\Business\\Jwt\\Token\\TokenService.cs",
-              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Business\\Jwt\\Token\\TokenService.cs",
-              "RelativeToolTip": "AdminService\\Business\\Jwt\\Token\\TokenService.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowCYAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:54:04.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "20250425090905__updateRefreshToken.cs",
               "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Migrations\\20250425090905__updateRefreshToken.cs",
               "RelativeDocumentMoniker": "AdminService\\Migrations\\20250425090905__updateRefreshToken.cs",
@@ -220,38 +274,11 @@
               "RelativeToolTip": "AdminService\\Migrations\\20250425090905__updateRefreshToken.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwAsAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:09:33.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T09:09:33.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IdmUser.cs",
-              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
-              "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
-              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
-              "RelativeToolTip": "AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwD0AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:52:42.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Business\\User\\UserModel.cs",
-              "RelativeDocumentMoniker": "AdminService\\Business\\User\\UserModel.cs",
-              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Business\\User\\UserModel.cs",
-              "RelativeToolTip": "AdminService\\Business\\User\\UserModel.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAiwAYAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:37:00.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\appsettings.json",
               "RelativeDocumentMoniker": "AdminService\\appsettings.json",
@@ -259,21 +286,7 @@
               "RelativeToolTip": "AdminService\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-25T08:30:23.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\MSA\\AdminService\\AdminService\\Controllers\\LoginController\\LoginController.cs",
-              "RelativeDocumentMoniker": "AdminService\\Controllers\\LoginController\\LoginController.cs",
-              "ToolTip": "D:\\MSA\\AdminService\\AdminService\\Controllers\\LoginController\\LoginController.cs",
-              "RelativeToolTip": "AdminService\\Controllers\\LoginController\\LoginController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAYwBsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:22:43.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T08:30:23.136Z"
             }
           ]
         },
