@@ -9,12 +9,14 @@
       "Utils/1.0.0": {
         "dependencies": {
           "AutoMapper": "14.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
           "Microsoft.Extensions.Configuration": "9.0.4",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
           "Microsoft.Extensions.Configuration.Binder": "9.0.4",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.4",
           "Microsoft.Extensions.Configuration.FileExtensions": "9.0.4",
-          "Microsoft.Extensions.Configuration.Json": "9.0.4"
+          "Microsoft.Extensions.Configuration.Json": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4"
         },
         "runtime": {
           "Utils.dll": {}
@@ -28,6 +30,29 @@
           "lib/net8.0/AutoMapper.dll": {
             "assemblyVersion": "14.0.0.0",
             "fileVersion": "14.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.3.0",
+          "System.Text.Encodings.Web": "9.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.25014"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.3.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.25014"
           }
         }
       },
@@ -107,11 +132,11 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
@@ -147,9 +172,21 @@
           }
         }
       },
+      "Microsoft.Extensions.Logging.Abstractions/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "System.Diagnostics.DiagnosticSource": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
       "Microsoft.Extensions.Options/8.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
           "Microsoft.Extensions.Primitives": "9.0.4"
         },
         "runtime": {
@@ -162,6 +199,14 @@
       "Microsoft.Extensions.Primitives/9.0.4": {
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/9.0.4": {
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.425.16305"
           }
@@ -218,6 +263,20 @@
       "path": "automapper/14.0.0",
       "hashPath": "automapper.14.0.0.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-39r9PPrjA6s0blyFv5qarckjNkaHRA5B+3b53ybuGGNTXEj1/DStQJ4NWjFL6QTRQpL9zt7nDyKxZdJOlcnq+Q==",
+      "path": "microsoft.aspnetcore.http.abstractions/2.3.0",
+      "hashPath": "microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f10WUgcsKqrkmnz6gt8HeZ7kyKjYN30PO7cSic1lPtH7paPtnQqXPOveul/SIPI43PhRD4trttg4ywnrEmmJpA==",
+      "path": "microsoft.aspnetcore.http.features/2.3.0",
+      "hashPath": "microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.Configuration/9.0.4": {
       "type": "package",
       "serviceable": true,
@@ -260,12 +319,12 @@
       "path": "microsoft.extensions.configuration.json/9.0.4",
       "hashPath": "microsoft.extensions.configuration.json.9.0.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+      "sha512": "sha512-UI0TQPVkS78bFdjkTodmkH0Fe8lXv9LnhGFKgKrsgUJ5a5FVdFRcgjIkBVLbGgdRhxWirxH/8IXUtEyYJx6GQg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512"
     },
     "Microsoft.Extensions.FileProviders.Abstractions/9.0.4": {
       "type": "package",
@@ -288,6 +347,13 @@
       "path": "microsoft.extensions.filesystemglobbing/9.0.4",
       "hashPath": "microsoft.extensions.filesystemglobbing.9.0.4.nupkg.sha512"
     },
+    "Microsoft.Extensions.Logging.Abstractions/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0MXlimU4Dud6t+iNi5NEz3dO2w1HXdhoOLaYFuLPCjAsvlPQGwOT6V2KZRMLEhCAm/stSZt1AUv0XmDdkjvtbw==",
+      "path": "microsoft.extensions.logging.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512"
+    },
     "Microsoft.Extensions.Options/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -301,6 +367,13 @@
       "sha512": "sha512-SPFyMjyku1nqTFFJ928JAMd0QnRe4xjE7KeKnZMWXf3xk+6e0WiOZAluYtLdbJUXtsl2cCRSi8cBquJ408k8RA==",
       "path": "microsoft.extensions.primitives/9.0.4",
       "hashPath": "microsoft.extensions.primitives.9.0.4.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Be0emq8bRmcK4eeJIFUt9+vYPf7kzuQrFs8Ef1CdGvXpq/uSve22PTSkRF09bF/J7wmYJ2DHf2v7GaT3vMXnwQ==",
+      "path": "system.diagnostics.diagnosticsource/9.0.4",
+      "hashPath": "system.diagnostics.diagnosticsource.9.0.4.nupkg.sha512"
     },
     "System.IO.Pipelines/9.0.4": {
       "type": "package",

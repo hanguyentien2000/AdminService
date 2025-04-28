@@ -5,6 +5,232 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/auth": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginRequestResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginRequestResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginRequestResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/auth/refresh": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RefreshRequestResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RefreshRequestResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RefreshRequestResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/auth/logout": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/role/byid/{id}": {
+      "get": {
+        "tags": [
+          "Role"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RoleModelResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RoleModelResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RoleModelResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/role/create": {
+      "post": {
+        "tags": [
+          "Role"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoleModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoleModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoleModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RoleModelResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RoleModelResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RoleModelResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/user": {
       "get": {
         "tags": [
@@ -82,17 +308,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserModel"
+                "$ref": "#/components/schemas/IdmUserInRoleModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserModel"
+                "$ref": "#/components/schemas/IdmUserInRoleModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UserModel"
+                "$ref": "#/components/schemas/IdmUserInRoleModel"
               }
             }
           }
@@ -103,17 +329,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/UserModelResponse"
+                  "$ref": "#/components/schemas/IdmUserInRoleModelResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/UserModelResponse"
+                  "$ref": "#/components/schemas/IdmUserInRoleModelResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/UserModelResponse"
+                  "$ref": "#/components/schemas/IdmUserInRoleModelResponse"
                 }
               }
             }
@@ -283,10 +509,480 @@
         },
         "additionalProperties": false
       },
-      "UserModel": {
+      "IdmRoles": {
+        "required": [
+          "loweredRoleName",
+          "roleName"
+        ],
+        "type": "object",
+        "properties": {
+          "applicationId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "roleId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "roleName": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string"
+          },
+          "loweredRoleName": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string"
+          },
+          "description": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "enableDelete": {
+            "type": "boolean"
+          },
+          "createdByUserId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "createdOnDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "lastModifiedByUserId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "lastModifiedByFullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastModifiedOnDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "roleCode": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "IdmUserInRoleModel": {
         "type": "object",
         "properties": {
           "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "roleId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "deleteDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "applicationId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "role": {
+            "$ref": "#/components/schemas/RoleModel"
+          },
+          "user": {
+            "$ref": "#/components/schemas/UserModel"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IdmUserInRoleModelResponse": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/IdmUserInRoleModel"
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "IdmUsers": {
+        "required": [
+          "loweredUserName",
+          "passwordSalt",
+          "userName"
+        ],
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "userName": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string"
+          },
+          "nickName": {
+            "maxLength": 512,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "mobilePin": {
+            "maxLength": 128,
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "otherEmail": {
+            "maxLength": 256,
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fullName": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "shortName": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "birthday": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "loweredUserName": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string"
+          },
+          "identityNumber": {
+            "maxLength": 128,
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "passwordFormat": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "passwordSalt": {
+            "maxLength": 128,
+            "minLength": 0,
+            "type": "string"
+          },
+          "isLockedOut": {
+            "type": "boolean"
+          },
+          "avatar": {
+            "maxLength": 1024,
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "maxLength": 500,
+            "type": "string",
+            "nullable": true
+          },
+          "lastActivityDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "identityDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "identityAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "maxLength": 1,
+            "type": "string",
+            "nullable": true
+          },
+          "refreshToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "refreshTokenExpiryDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "isRefreshTokenRevoked": {
+            "type": "boolean"
+          },
+          "createdByUserId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "createdByFullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdOnDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lastModifiedByUserId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "lastModifiedByFullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastModifiedOnDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idmUsersInRoles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IdmUsersInRoles"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "IdmUsersInRoles": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "roleId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "deleteDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "applicationId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "role": {
+            "$ref": "#/components/schemas/IdmRoles"
+          },
+          "user": {
+            "$ref": "#/components/schemas/IdmUsers"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequestResponse": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/LoginRequest"
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RefreshRequest": {
+        "type": "object",
+        "properties": {
+          "refreshToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RefreshRequestResponse": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/RefreshRequest"
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RoleModel": {
+        "type": "object",
+        "properties": {
+          "applicationId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "roleId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "roleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "loweredRoleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "enableDelete": {
+            "type": "boolean"
+          },
+          "createdByUserId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "createdOnDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "lastModifiedByUserId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "lastModifiedByFullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastModifiedOnDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "roleCode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RoleModelResponse": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/RoleModel"
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserModel": {
+        "type": "object",
+        "properties": {
+          "userId": {
             "type": "string",
             "format": "uuid"
           },
@@ -294,12 +990,120 @@
             "type": "string",
             "nullable": true
           },
+          "nickName": {
+            "type": "string",
+            "nullable": true
+          },
+          "mobilePin": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "otherEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "type": "integer",
+            "format": "int32"
+          },
           "fullName": {
             "type": "string",
             "nullable": true
           },
-          "role": {
+          "shortName": {
             "type": "string",
+            "nullable": true
+          },
+          "birthday": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "loweredUserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "identityNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "passwordFormat": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "passwordSalt": {
+            "type": "string",
+            "nullable": true
+          },
+          "isLockedOut": {
+            "type": "boolean"
+          },
+          "avatar": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastActivityDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "identityDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "identityAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdByUserId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "createdByFullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdOnDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lastModifiedByUserId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "lastModifiedByFullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastModifiedOnDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idmUsersInRoles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IdmUsersInRoles"
+            },
             "nullable": true
           }
         },

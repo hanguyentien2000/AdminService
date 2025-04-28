@@ -1,5 +1,135 @@
 [
   {
+    "ContainingType": "AdminService.Controllers.LoginController.AuthController",
+    "Method": "SomeAction",
+    "RelativePath": "api/auth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdminService.Controllers.LoginController.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AdminService.Controllers.LoginController.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataUtils.Response\u00601[[AdminService.Controllers.LoginController.LoginRequest, AdminService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AdminService.Controllers.LoginController.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AdminService.Controllers.LoginController.RefreshRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdminService.Controllers.LoginController.AuthController",
+    "Method": "Refresh",
+    "RelativePath": "api/auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AdminService.Controllers.LoginController.RefreshRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataUtils.Response\u00601[[AdminService.Controllers.LoginController.RefreshRequest, AdminService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AdminService.Controllers.Role.RoleController",
+    "Method": "GetById",
+    "RelativePath": "api/role/byid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataUtils.Response\u00601[[AdminService.Business.Roles.RoleModel, AdminService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AdminService.Controllers.Role.RoleController",
+    "Method": "Create",
+    "RelativePath": "api/role/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AdminService.Business.Roles.RoleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataUtils.Response\u00601[[AdminService.Business.Roles.RoleModel, AdminService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "AdminService.Controllers.User.UserController",
     "Method": "GetAll",
     "RelativePath": "api/user",
@@ -55,13 +185,13 @@
     "Parameters": [
       {
         "Name": "User",
-        "Type": "AdminService.Business.User.UserModel",
+        "Type": "AdminService.Business.User.IdmUserInRoleModel",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "DataUtils.Response\u00601[[AdminService.Business.User.UserModel, AdminService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "DataUtils.Response\u00601[[AdminService.Business.User.IdmUserInRoleModel, AdminService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

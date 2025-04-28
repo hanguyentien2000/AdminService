@@ -11,11 +11,29 @@ using AdminService.Insfrastructure;
 using DataUtils;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Utils;
+using Utils.Middlewares;
+using Microsoft.Extensions.Caching.StackExchangeRedis;
+using Utils.Cache;
 
 var builder = WebApplication.CreateBuilder(args);
+// Cấu hình In-Memory Cache
+builder.Services.AddMemoryCache();
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = "localhost:6379"; // Địa chỉ Redis server
+    options.InstanceName = "MyApp_"; // Tiền tố cho các khóa cache
+});
+
+// Đăng ký các dịch vụ Cache
+builder.Services.AddScoped<InMemoryCacheService>();
+builder.Services.AddScoped<RedisCacheService>();
+builder.Services.AddScoped<CacheService>();
+
 // Dùng ConfigHelper để lấy chuỗi kết nối
 //var config = CommonUtils.GetConfiguration();
 //var connectionString = config.GetConnectionString("MSSQLDatabase");
@@ -69,7 +87,29 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = "your-redis-server:6379,password=your-password";
+    options.InstanceName = "MyApp_";
+});
+
 var app = builder.Build();
+
+// Dịch vụ API dùng chung để test cache
+app.MapGet("/cache", async (CacheService cacheService) =>
+{
+    string key = "myCacheKey";
+    string cachedData = await cacheService.GetCacheAsync(key);
+
+    if (string.IsNullOrEmpty(cachedData))
+    {
+        cachedData = "This is some fetched data.";
+        await cacheService.SetCacheAsync(key, cachedData);
+    }
+
+    return Results.Ok(cachedData);
+});
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -82,7 +122,9 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication(); // Thêm vào để sử dụng xác thực
 app.UseAuthorization();
-
+// Đăng ký middleware vào pipeline
+app.UseMiddleware<RequestLoggingMiddleware>();
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.MapControllers();
 
 app.Run();
