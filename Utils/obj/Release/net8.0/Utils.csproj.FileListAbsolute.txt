@@ -1,0 +1,13 @@
+E:\ProjectSample\AdminService\Utils\bin\Release\net8.0\Utils.deps.json
+E:\ProjectSample\AdminService\Utils\bin\Release\net8.0\Utils.dll
+E:\ProjectSample\AdminService\Utils\bin\Release\net8.0\Utils.pdb
+E:\ProjectSample\AdminService\Utils\obj\Release\net8.0\Utils.csproj.AssemblyReference.cache
+E:\ProjectSample\AdminService\Utils\obj\Release\net8.0\Utils.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjectSample\AdminService\Utils\obj\Release\net8.0\Utils.AssemblyInfoInputs.cache
+E:\ProjectSample\AdminService\Utils\obj\Release\net8.0\Utils.AssemblyInfo.cs
+E:\ProjectSample\AdminService\Utils\obj\Release\net8.0\Utils.csproj.CoreCompileInputs.cache
+E:\ProjectSample\AdminService\Utils\obj\Release\net8.0\Utils.sourcelink.json
+E:\ProjectSample\AdminService\Utils\obj\Release\net8.0\Utils.dll
+E:\ProjectSample\AdminService\Utils\obj\Release\net8.0\refint\Utils.dll
+E:\ProjectSample\AdminService\Utils\obj\Release\net8.0\Utils.pdb
+E:\ProjectSample\AdminService\Utils\obj\Release\net8.0\ref\Utils.dll
