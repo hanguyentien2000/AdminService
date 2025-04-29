@@ -1,6 +1,6 @@
 # Build Folders
-bin/
-obj/
+**/bin/
+**/obj/
 artifacts/
 
 # User-specific files

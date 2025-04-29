@@ -10,7 +10,8 @@ using Microsoft.EntityFrameworkCore;
 namespace DataUtils
 {
     /// <summary>
-    //   kết hợp Database Factory với Unit of Work để: Tạo DbContext một cách chủ động, có kiểm soát  Tái sử dụng context nếu đã tồn tại(giống scoped DI behavior
+    //   kết hợp Database Factory với Unit of Work để: Tạo DbContext một cách chủ động, có kiểm soát
+    //   Tái sử dụng context nếu đã tồn tại(giống scoped DI behavior
     //   DatabaseFactory cung cấp 1 phiên bản DbContext duy nhất trong suốt thời gian tồn tại của UnitOfWork.
     //   UnitOfWork gọi DbContext.SaveChanges() để commit tất cả thay đổi sau khi các repository đã thao tác.
     //   Điều này đảm bảo rằng:
