@@ -1,2 +1,41 @@
-DataUtils/obj/Debug/net8.0/DataUtils.AssemblyInfoInputs.cache
-DataUtils/obj/Debug/net8.0/DataUtils.AssemblyInfo.cs
+###########################
+# .NET & ASP.NET Core
+###########################
+
+# Build results
+**/bin/
+**/obj/
+**/out/
+**/Debug/
+**/Release/
+*.dll
+*.exe
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code & Visual Studio
+.vscode/
+.vs/
+
+# ASP.NET Core specific
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+wwwroot/
+
+# Logs
+*.log
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+
+# OS-specific
+.DS_Store
+Thumbs.db
