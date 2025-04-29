@@ -11,6 +11,13 @@
 *.dll
 *.exe
 *.pdb
+*.cache
+
+# Assembly info (auto-generated)
+**/AssemblyInfo.cs
+
+# JSON config files (environment-specific or generated)
+*.json
 
 # User-specific files
 *.user
@@ -23,15 +30,13 @@
 .vs/
 
 # ASP.NET Core specific
-appsettings.Development.json
-appsettings.Local.json
 appsettings.*.json
 wwwroot/
 
 # Logs
 *.log
 
-# Packages
+# NuGet packages
 *.nupkg
 *.snupkg
 packages/
