@@ -1,0 +1,17 @@
+services:
+  adminservice:
+    build:
+      context: ./AdminServive                  # Chỉ định thư mục gốc chứa Dockerfile
+      dockerfile: Dockerfile   # Đường dẫn tới Dockerfile của bạn
+    ports:
+      - "8080:80"                  # Mapping cổng 80 trong container ra cổng 8080 trên máy host
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development # Chỉ định môi trường (Development/Production)
+    volumes:
+      - .:/app                     # Mount thư mục hiện tại vào thư mục /app trong container
+    networks:
+      - app-network                 # Chỉ định mạng cho dịch vụ này
+
+networks:
+  app-network:                     # Định nghĩa mạng
+    driver: bridge
