@@ -19,6 +19,7 @@ using Utils;
 using Utils.Middlewares;
 using Microsoft.Extensions.Caching.StackExchangeRedis;
 using Utils.Cache;
+using AdminService.Business.CustomMiddleware;
 
 var builder = WebApplication.CreateBuilder(args);
 // Cấu hình In-Memory Cache
@@ -119,12 +120,31 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+// Luôn gọi UseCors TRƯỚC khi authorization
+//CORS(Cross - Origin Resource Sharing) cho phép một web app (frontend) truy cập tài nguyên từ một domain khác (backend).
+
+//Ví dụ:
+//Frontend tại http://localhost:3000 gọi API từ https://api.mysite.com → cần bật CORS.
+
+//Nếu không bật → trình duyệt sẽ chặn request vì lý do bảo mật.
+app.UseCors("AllowFrontend");
 
 app.UseAuthentication(); // Thêm vào để sử dụng xác thực
 app.UseAuthorization();
 // Đăng ký middleware vào pipeline
 app.UseMiddleware<RequestLoggingMiddleware>();
 app.UseMiddleware<ExceptionHandlingMiddleware>();
+
+// Ví dụ các middleware có sẵn
+
+//app.UseRouting();
+//app.UseDeveloperExceptionPage();
+//app.UseExceptionHandler();
+//app.UseStaticFiles();
+
+// Đăng ký custom middleware
+app.UseRequestTiming();
+app.UseGlobalExceptionHandler();
 app.MapControllers();
 
 app.Run();
