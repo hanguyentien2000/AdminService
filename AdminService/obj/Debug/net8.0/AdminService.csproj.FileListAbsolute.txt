@@ -368,3 +368,6 @@ E:\ProjectSample\AdminService\AdminService\obj\Debug\net8.0\refint\AdminService.
 E:\ProjectSample\AdminService\AdminService\obj\Debug\net8.0\AdminService.pdb
 E:\ProjectSample\AdminService\AdminService\obj\Debug\net8.0\AdminService.genruntimeconfig.cache
 E:\ProjectSample\AdminService\AdminService\obj\Debug\net8.0\ref\AdminService.dll
+E:\ProjectSample\AdminService\AdminService\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+E:\ProjectSample\AdminService\AdminService\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+E:\ProjectSample\AdminService\AdminService\bin\Debug\net8.0\StackExchange.Redis.dll

@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B3140B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataUtils", "DataUtils\DataUtils.csproj", "{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{16AE6DEC-21ED-4513-9133-168142663E38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AE6DEC-21ED-4513-9133-168142663E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AE6DEC-21ED-4513-9133-168142663E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AE6DEC-21ED-4513-9133-168142663E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AE6DEC-21ED-4513-9133-168142663E38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{6B711328-88BE-42EF-814F-D776F9CD899A} = {B3140BD1-661A-4A7E-AF14-DE0E55D41C93}
 		{B3140BD1-661A-4A7E-AF14-DE0E55D41C93} = {D0696D67-DE81-43C5-AD65-1D1B3A0E53E3}
 		{C8F99AEA-D361-4C4E-B4F4-842A30F167D9} = {B3140BD1-661A-4A7E-AF14-DE0E55D41C93}
+		{16AE6DEC-21ED-4513-9133-168142663E38} = {6A2B3D8C-2020-4BED-9EB4-36DFDCC2A941}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E788E92D-D208-4ECF-9C88-8679BBCFA975}

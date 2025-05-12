@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "E:\\ProjectSample\\AdminService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\business\\custommiddleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\custommiddleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\business\\custommiddleware\\globalexceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\custommiddleware\\globalexceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\controllers\\authentication\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\controllers\\authentication\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\business\\custommiddleware\\requesttimingmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\custommiddleware\\requesttimingmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\business\\custommiddleware\\requesttimingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\custommiddleware\\requesttimingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|e:\\projectsample\\adminservice\\utils\\cache\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|solutionrelative:utils\\cache\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|e:\\projectsample\\adminservice\\utils\\cache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|solutionrelative:utils\\cache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|e:\\projectsample\\adminservice\\utils\\cache\\inmemorycacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|solutionrelative:utils\\cache\\inmemorycacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\business\\jwt\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\jwt\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|e:\\projectsample\\adminservice\\utils\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|solutionrelative:utils\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +63,8 @@
       "RelativeMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|solutionrelative:utils\\middlewares\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|e:\\projectsample\\adminservice\\utils\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B711328-88BE-42EF-814F-D776F9CD899A}|Utils\\Utils.csproj|solutionrelative:utils\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\controllers\\logincontroller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\controllers\\logincontroller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|e:\\projectsample\\adminservice\\datautils\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|solutionrelative:datautils\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\business\\jwt\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\business\\jwt\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|e:\\projectsample\\adminservice\\adminservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCAF67D-8AE6-4758-86FF-65AC6F41CFD4}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8F99AEA-D361-4C4E-B4F4-842A30F167D9}|DataUtils\\DataUtils.csproj|e:\\projectsample\\adminservice\\datautils\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,95 +154,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AutoMapper.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\AutoMapper.cs",
-              "RelativeDocumentMoniker": "Utils\\AutoMapper.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\AutoMapper.cs",
-              "RelativeToolTip": "Utils\\AutoMapper.cs",
+              "DocumentIndex": 5,
+              "Title": "RequestTimingMiddleware.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\CustomMiddleware\\RequestTimingMiddleware.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\CustomMiddleware\\RequestTimingMiddleware.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\CustomMiddleware\\RequestTimingMiddleware.cs",
+              "RelativeToolTip": "AdminService\\Business\\CustomMiddleware\\RequestTimingMiddleware.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T15:58:39.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "AdminService\\WeatherForecast.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\WeatherForecast.cs",
+              "RelativeToolTip": "AdminService\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:59:34.681Z",
+              "WhenOpened": "2025-05-08T15:51:28.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExceptionHandlingMiddleware.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\Middlewares\\ExceptionHandlingMiddleware.cs",
-              "RelativeDocumentMoniker": "Utils\\Middlewares\\ExceptionHandlingMiddleware.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\Middlewares\\ExceptionHandlingMiddleware.cs",
-              "RelativeToolTip": "Utils\\Middlewares\\ExceptionHandlingMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:56:22.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RequestLoggingMiddleware.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\Middlewares\\RequestLoggingMiddleware.cs",
-              "RelativeDocumentMoniker": "Utils\\Middlewares\\RequestLoggingMiddleware.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\Middlewares\\RequestLoggingMiddleware.cs",
-              "RelativeToolTip": "Utils\\Middlewares\\RequestLoggingMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:55:13.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IdmUser.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
-              "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
-              "RelativeToolTip": "AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAqwDoAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:52:42.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Program.cs",
               "RelativeDocumentMoniker": "AdminService\\Program.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Program.cs",
               "RelativeToolTip": "AdminService\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwFUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAewBcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T09:02:28.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Startup.cs",
-              "RelativeDocumentMoniker": "AdminService\\Startup.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Startup.cs",
-              "RelativeToolTip": "AdminService\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Controllers\\Authentication\\LoginController.cs",
+              "RelativeDocumentMoniker": "AdminService\\Controllers\\Authentication\\LoginController.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Controllers\\Authentication\\LoginController.cs",
+              "RelativeToolTip": "AdminService\\Controllers\\Authentication\\LoginController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T10:30:37.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\Repository.cs",
-              "RelativeDocumentMoniker": "DataUtils\\Repository.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\Repository.cs",
-              "RelativeToolTip": "DataUtils\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T07:34:48.815Z"
+              "WhenOpened": "2025-04-25T08:22:43.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "GlobalExceptionMiddlewareExtensions.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\CustomMiddleware\\GlobalExceptionMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\CustomMiddleware\\GlobalExceptionMiddlewareExtensions.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\CustomMiddleware\\GlobalExceptionMiddlewareExtensions.cs",
+              "RelativeToolTip": "AdminService\\Business\\CustomMiddleware\\GlobalExceptionMiddlewareExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T16:12:28.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\CustomMiddleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\CustomMiddleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\CustomMiddleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "AdminService\\Business\\CustomMiddleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T16:05:57.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestTimingMiddlewareExtensions.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\CustomMiddleware\\RequestTimingMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\CustomMiddleware\\RequestTimingMiddlewareExtensions.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\CustomMiddleware\\RequestTimingMiddlewareExtensions.cs",
+              "RelativeToolTip": "AdminService\\Business\\CustomMiddleware\\RequestTimingMiddlewareExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T16:00:24.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RedisCacheService.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\Cache\\RedisCacheService.cs",
+              "RelativeDocumentMoniker": "Utils\\Cache\\RedisCacheService.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\Cache\\RedisCacheService.cs",
+              "RelativeToolTip": "Utils\\Cache\\RedisCacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:27:47.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IdmUser.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
+              "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
+              "RelativeToolTip": "AdminService\\Insfrastructure\\Databases\\IdmUser.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA8wDoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:52:42.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\appsettings.json",
               "RelativeDocumentMoniker": "AdminService\\appsettings.json",
@@ -223,209 +283,281 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IRoleHandler.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\Roles\\IRoleHandler.cs",
-              "RelativeDocumentMoniker": "AdminService\\Business\\Roles\\IRoleHandler.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\Roles\\IRoleHandler.cs",
-              "RelativeToolTip": "AdminService\\Business\\Roles\\IRoleHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABCAAAA",
+              "DocumentIndex": 11,
+              "Title": "InMemoryCacheService.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\Cache\\InMemoryCacheService.cs",
+              "RelativeDocumentMoniker": "Utils\\Cache\\InMemoryCacheService.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\Cache\\InMemoryCacheService.cs",
+              "RelativeToolTip": "Utils\\Cache\\InMemoryCacheService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:30:27.463Z"
+              "WhenOpened": "2025-04-28T16:24:53.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Controllers\\Role\\RoleController.cs",
-              "RelativeDocumentMoniker": "AdminService\\Controllers\\Role\\RoleController.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Controllers\\Role\\RoleController.cs",
-              "RelativeToolTip": "AdminService\\Controllers\\Role\\RoleController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAYwB0AAAAmAAAA",
+              "DocumentIndex": 10,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\Cache\\CacheService.cs",
+              "RelativeDocumentMoniker": "Utils\\Cache\\CacheService.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\Cache\\CacheService.cs",
+              "RelativeToolTip": "Utils\\Cache\\CacheService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:46:58.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\IRepository.cs",
-              "RelativeDocumentMoniker": "DataUtils\\IRepository.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\IRepository.cs",
-              "RelativeToolTip": "DataUtils\\IRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T07:33:01.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Controllers\\LoginController\\LoginController.cs",
-              "RelativeDocumentMoniker": "AdminService\\Controllers\\LoginController\\LoginController.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Controllers\\LoginController\\LoginController.cs",
-              "RelativeToolTip": "AdminService\\Controllers\\LoginController\\LoginController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAFUAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:22:43.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RoleHandler.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\Roles\\RoleHandler.cs",
-              "RelativeDocumentMoniker": "AdminService\\Business\\Roles\\RoleHandler.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\Roles\\RoleHandler.cs",
-              "RelativeToolTip": "AdminService\\Business\\Roles\\RoleHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T09:30:39.329Z"
+              "WhenOpened": "2025-04-28T16:31:37.565Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "UserHandler.cs",
-              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\UserHandler.cs",
-              "RelativeDocumentMoniker": "AdminService\\Business\\User\\UserHandler.cs",
-              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\UserHandler.cs",
-              "RelativeToolTip": "AdminService\\Business\\User\\UserHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Utils\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Utils\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:57:17.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T15:56:22.735Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Startup.cs",
+              "RelativeDocumentMoniker": "AdminService\\Startup.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Startup.cs",
+              "RelativeToolTip": "AdminService\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T10:30:37.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\Repository.cs",
+              "RelativeDocumentMoniker": "DataUtils\\Repository.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\Repository.cs",
+              "RelativeToolTip": "DataUtils\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T07:34:48.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "TokenService.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\Jwt\\Token\\TokenService.cs",
               "RelativeDocumentMoniker": "AdminService\\Business\\Jwt\\Token\\TokenService.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\Jwt\\Token\\TokenService.cs",
               "RelativeToolTip": "AdminService\\Business\\Jwt\\Token\\TokenService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAiwDgAAAA7AAAA",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwDoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T08:54:04.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
+              "Title": "RequestLoggingMiddleware.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\Middlewares\\RequestLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Utils\\Middlewares\\RequestLoggingMiddleware.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\Middlewares\\RequestLoggingMiddleware.cs",
+              "RelativeToolTip": "Utils\\Middlewares\\RequestLoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:55:13.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AutoMapper.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\Utils\\AutoMapper.cs",
+              "RelativeDocumentMoniker": "Utils\\AutoMapper.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\Utils\\AutoMapper.cs",
+              "RelativeToolTip": "Utils\\AutoMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:59:34.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IRoleHandler.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\Roles\\IRoleHandler.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\Roles\\IRoleHandler.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\Roles\\IRoleHandler.cs",
+              "RelativeToolTip": "AdminService\\Business\\Roles\\IRoleHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:30:27.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Controllers\\Role\\RoleController.cs",
+              "RelativeDocumentMoniker": "AdminService\\Controllers\\Role\\RoleController.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Controllers\\Role\\RoleController.cs",
+              "RelativeToolTip": "AdminService\\Controllers\\Role\\RoleController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:46:58.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\IRepository.cs",
+              "RelativeDocumentMoniker": "DataUtils\\IRepository.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\IRepository.cs",
+              "RelativeToolTip": "DataUtils\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T07:33:01.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RoleHandler.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\Roles\\RoleHandler.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\Roles\\RoleHandler.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\Roles\\RoleHandler.cs",
+              "RelativeToolTip": "AdminService\\Business\\Roles\\RoleHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T09:30:39.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserHandler.cs",
+              "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\UserHandler.cs",
+              "RelativeDocumentMoniker": "AdminService\\Business\\User\\UserHandler.cs",
+              "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\UserHandler.cs",
+              "RelativeToolTip": "AdminService\\Business\\User\\UserHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:57:17.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "UserController.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Controllers\\User\\UserController.cs",
               "RelativeDocumentMoniker": "AdminService\\Controllers\\User\\UserController.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Controllers\\User\\UserController.cs",
               "RelativeToolTip": "AdminService\\Controllers\\User\\UserController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAtwCUAAAA7AAAA",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA9wCUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T08:24:41.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "DatabaseFactory.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\DatabaseFactory.cs",
               "RelativeDocumentMoniker": "DataUtils\\DatabaseFactory.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\DatabaseFactory.cs",
               "RelativeToolTip": "DataUtils\\DatabaseFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T09:15:39.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "DataUtils\\IUnitOfWork.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\IUnitOfWork.cs",
               "RelativeToolTip": "DataUtils\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T09:15:41.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "UserModel.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\UserModel.cs",
               "RelativeDocumentMoniker": "AdminService\\Business\\User\\UserModel.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\UserModel.cs",
               "RelativeToolTip": "AdminService\\Business\\User\\UserModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T08:37:00.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "Response.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\DataUtils\\Response.cs",
               "RelativeDocumentMoniker": "DataUtils\\Response.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\DataUtils\\Response.cs",
               "RelativeToolTip": "DataUtils\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T07:39:44.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "IUserHandler.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\IUserHandler.cs",
               "RelativeDocumentMoniker": "AdminService\\Business\\User\\IUserHandler.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\User\\IUserHandler.cs",
               "RelativeToolTip": "AdminService\\Business\\User\\IUserHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAABAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T03:07:07.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "IdmUserInRoles.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUserInRoles.cs",
               "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\Databases\\IdmUserInRoles.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmUserInRoles.cs",
               "RelativeToolTip": "AdminService\\Insfrastructure\\Databases\\IdmUserInRoles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T09:17:43.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "IdmRoles.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmRoles.cs",
               "RelativeDocumentMoniker": "AdminService\\Insfrastructure\\Databases\\IdmRoles.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Insfrastructure\\Databases\\IdmRoles.cs",
               "RelativeToolTip": "AdminService\\Insfrastructure\\Databases\\IdmRoles.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T09:25:24.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "RoleModel.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\Roles\\RoleModel.cs",
               "RelativeDocumentMoniker": "AdminService\\Business\\Roles\\RoleModel.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Business\\Roles\\RoleModel.cs",
               "RelativeToolTip": "AdminService\\Business\\Roles\\RoleModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T09:30:12.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "20250425090905__updateRefreshToken.cs",
               "DocumentMoniker": "E:\\ProjectSample\\AdminService\\AdminService\\Migrations\\20250425090905__updateRefreshToken.cs",
               "RelativeDocumentMoniker": "AdminService\\Migrations\\20250425090905__updateRefreshToken.cs",
               "ToolTip": "E:\\ProjectSample\\AdminService\\AdminService\\Migrations\\20250425090905__updateRefreshToken.cs",
               "RelativeToolTip": "AdminService\\Migrations\\20250425090905__updateRefreshToken.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAsAAABFAAAA",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T09:09:33.859Z"
             }

@@ -1281,6 +1281,23 @@
           }
         }
       },
+      "RabbitMQ.Client/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "StackExchange.Redis/2.8.31": {
         "type": "package",
         "dependencies": {
@@ -1933,7 +1950,7 @@
       "System.Threading.Channels/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/System.Threading.Channels.dll": {
             "related": ".xml"
           }
         },
@@ -1988,6 +2005,20 @@
         },
         "runtime": {
           "bin/placeholder/DataUtils.dll": {}
+        }
+      },
+      "EventBusRabbitMqueue/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "RabbitMQ.Client": "6.1.0"
+        },
+        "compile": {
+          "bin/placeholder/EventBusRabbitMqueue.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventBusRabbitMqueue.dll": {}
         }
       },
       "Utils/1.0.0": {
@@ -4592,6 +4623,25 @@
         "pipelines.sockets.unofficial.nuspec"
       ]
     },
+    "RabbitMQ.Client/6.1.0": {
+      "sha512": "XtiIVPRpcR82AWoe64Hh9gDHqBtheFuL/88YubNKkCpNcctkWFQjMlz3zTyf2lGvZouxCXarDm0nYhGBMbt58Q==",
+      "type": "package",
+      "path": "rabbitmq.client/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net461/RabbitMQ.Client.dll",
+        "lib/net461/RabbitMQ.Client.pdb",
+        "lib/net461/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.pdb",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.1.0.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
     "StackExchange.Redis/2.8.31": {
       "sha512": "RCHVQa9Zke8k0oBgJn1Yl6BuYy8i6kv+sdMObiH60nOwD6QvWAjxdDwOm+LO78E8WsGiPqgOuItkz98fPS6haQ==",
       "type": "package",
@@ -5916,6 +5966,11 @@
       "path": "../DataUtils/DataUtils.csproj",
       "msbuildProject": "../DataUtils/DataUtils.csproj"
     },
+    "EventBusRabbitMqueue/1.0.0": {
+      "type": "project",
+      "path": "../EventBusRabbitMqueue/EventBusRabbitMqueue.csproj",
+      "msbuildProject": "../EventBusRabbitMqueue/EventBusRabbitMqueue.csproj"
+    },
     "Utils/1.0.0": {
       "type": "project",
       "path": "../Utils/Utils.csproj",
@@ -5925,6 +5980,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "DataUtils >= 1.0.0",
+      "EventBusRabbitMqueue >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.4",
@@ -5938,23 +5994,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hant\\.nuget\\packages\\": {},
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MSA\\AdminService\\AdminService\\AdminService.csproj",
+      "projectUniqueName": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj",
       "projectName": "AdminService",
-      "projectPath": "D:\\MSA\\AdminService\\AdminService\\AdminService.csproj",
-      "packagesPath": "C:\\Users\\hant\\.nuget\\packages\\",
-      "outputPath": "D:\\MSA\\AdminService\\AdminService\\obj\\",
+      "projectPath": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "E:\\ProjectSample\\AdminService\\AdminService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5963,18 +6019,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\MSA\\AdminService\\DataUtils\\DataUtils.csproj": {
-              "projectPath": "D:\\MSA\\AdminService\\DataUtils\\DataUtils.csproj"
+            "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj": {
+              "projectPath": "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj"
             },
-            "D:\\MSA\\AdminService\\Utils\\Utils.csproj": {
-              "projectPath": "D:\\MSA\\AdminService\\Utils\\Utils.csproj"
+            "E:\\ProjectSample\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj": {
+              "projectPath": "E:\\ProjectSample\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj"
+            },
+            "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj": {
+              "projectPath": "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj"
             }
           }
         }
@@ -5988,7 +6046,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -6052,7 +6111,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
