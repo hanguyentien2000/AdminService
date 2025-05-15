@@ -24,3 +24,16 @@ E:\ProjectSample\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.dll
 E:\ProjectSample\AdminService\DataUtils\obj\Debug\net8.0\refint\DataUtils.dll
 E:\ProjectSample\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.pdb
 E:\ProjectSample\AdminService\DataUtils\obj\Debug\net8.0\ref\DataUtils.dll
+D:\Code\MSA\AdminService\DataUtils\bin\Debug\net8.0\DataUtils.deps.json
+D:\Code\MSA\AdminService\DataUtils\bin\Debug\net8.0\DataUtils.dll
+D:\Code\MSA\AdminService\DataUtils\bin\Debug\net8.0\DataUtils.pdb
+D:\Code\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.csproj.AssemblyReference.cache
+D:\Code\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.AssemblyInfoInputs.cache
+D:\Code\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.AssemblyInfo.cs
+D:\Code\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.csproj.CoreCompileInputs.cache
+D:\Code\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.sourcelink.json
+D:\Code\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.dll
+D:\Code\MSA\AdminService\DataUtils\obj\Debug\net8.0\refint\DataUtils.dll
+D:\Code\MSA\AdminService\DataUtils\obj\Debug\net8.0\DataUtils.pdb
+D:\Code\MSA\AdminService\DataUtils\obj\Debug\net8.0\ref\DataUtils.dll

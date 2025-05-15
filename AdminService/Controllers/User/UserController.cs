@@ -2,6 +2,7 @@
 using AdminService.Insfrastructure;
 using AdminService.Insfrastructure.Databases;
 using DataUtils;
+using EventBusRabbitMqueue.Abstractions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -54,6 +55,19 @@ namespace AdminService.Controllers.User
         {
             var result = await _userHandler.DeleteUserAsync(id);
             return result.Success ? Ok(result) : NotFound(result);
+        }
+
+        [HttpPost("register")]
+        public IActionResult Register([FromServices] IEventPublisher publisher)
+        {
+            var ev = new UserCreatedEvent
+            {
+                UserId = Guid.NewGuid(),
+                Email = "test@example.com",
+                RegisteredAt = DateTime.UtcNow
+            };
+            publisher.Publish(ev);
+            return Ok("User created and event published");
         }
     }
 }

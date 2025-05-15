@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj": {}
+    "D:\\Code\\MSA\\AdminService\\AdminService\\AdminService.csproj": {}
   },
   "projects": {
-    "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj": {
+    "D:\\Code\\MSA\\AdminService\\AdminService\\AdminService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj",
+        "projectUniqueName": "D:\\Code\\MSA\\AdminService\\AdminService\\AdminService.csproj",
         "projectName": "AdminService",
-        "projectPath": "E:\\ProjectSample\\AdminService\\AdminService\\AdminService.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjectSample\\AdminService\\AdminService\\obj\\",
+        "projectPath": "D:\\Code\\MSA\\AdminService\\AdminService\\AdminService.csproj",
+        "packagesPath": "C:\\Users\\Nguyen Tien Ha\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\MSA\\AdminService\\AdminService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nguyen Tien Ha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,20 +26,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj": {
-                "projectPath": "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj"
+              "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj": {
+                "projectPath": "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj"
               },
-              "E:\\ProjectSample\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj": {
-                "projectPath": "E:\\ProjectSample\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj"
+              "D:\\Code\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj": {
+                "projectPath": "D:\\Code\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj"
               },
-              "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj": {
-                "projectPath": "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj"
+              "D:\\Code\\MSA\\AdminService\\Utils\\Utils.csproj": {
+                "projectPath": "D:\\Code\\MSA\\AdminService\\Utils\\Utils.csproj"
               }
             }
           }
@@ -122,20 +123,20 @@
         }
       }
     },
-    "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj": {
+    "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj",
+        "projectUniqueName": "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj",
         "projectName": "DataUtils",
-        "projectPath": "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjectSample\\AdminService\\DataUtils\\obj\\",
+        "projectPath": "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj",
+        "packagesPath": "C:\\Users\\Nguyen Tien Ha\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\MSA\\AdminService\\DataUtils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nguyen Tien Ha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -144,6 +145,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -193,20 +195,20 @@
         }
       }
     },
-    "E:\\ProjectSample\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj": {
+    "D:\\Code\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjectSample\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj",
+        "projectUniqueName": "D:\\Code\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj",
         "projectName": "EventBusRabbitMqueue",
-        "projectPath": "E:\\ProjectSample\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjectSample\\AdminService\\EventBusRabbitMqueue\\obj\\",
+        "projectPath": "D:\\Code\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj",
+        "packagesPath": "C:\\Users\\Nguyen Tien Ha\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\MSA\\AdminService\\EventBusRabbitMqueue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nguyen Tien Ha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -215,6 +217,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -243,6 +246,18 @@
               "target": "Package",
               "version": "[9.0.4, )"
             },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
             "RabbitMQ.Client": {
               "target": "Package",
               "version": "[6.1.0, )"
@@ -268,20 +283,20 @@
         }
       }
     },
-    "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj": {
+    "D:\\Code\\MSA\\AdminService\\Utils\\Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj",
+        "projectUniqueName": "D:\\Code\\MSA\\AdminService\\Utils\\Utils.csproj",
         "projectName": "Utils",
-        "projectPath": "E:\\ProjectSample\\AdminService\\Utils\\Utils.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjectSample\\AdminService\\Utils\\obj\\",
+        "projectPath": "D:\\Code\\MSA\\AdminService\\Utils\\Utils.csproj",
+        "packagesPath": "C:\\Users\\Nguyen Tien Ha\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\MSA\\AdminService\\Utils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nguyen Tien Ha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -290,6 +305,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj": {}
+    "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj": {}
   },
   "projects": {
-    "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj": {
+    "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj",
+        "projectUniqueName": "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj",
         "projectName": "DataUtils",
-        "projectPath": "E:\\ProjectSample\\AdminService\\DataUtils\\DataUtils.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjectSample\\AdminService\\DataUtils\\obj\\",
+        "projectPath": "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj",
+        "packagesPath": "C:\\Users\\Nguyen Tien Ha\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\MSA\\AdminService\\DataUtils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nguyen Tien Ha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

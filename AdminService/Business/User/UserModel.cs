@@ -1,5 +1,6 @@
 ﻿using AdminService.Business.Roles;
 using AdminService.Insfrastructure.Databases;
+using EventBusRabbitMqueue.Models;
 
 namespace AdminService.Business.User
 {
@@ -51,4 +52,12 @@ namespace AdminService.Business.User
         public virtual RoleModel Role { get; set; }
         public virtual UserModel User { get; set; }
     }
+
+    public class UserCreatedEvent : BaseEvent
+    {
+        public Guid UserId { get; set; }
+        public string Email { get; set; } = string.Empty;
+        public DateTime RegisteredAt { get; set; }
+    }
+
 }

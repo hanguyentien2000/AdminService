@@ -20,6 +20,9 @@ using Utils.Middlewares;
 using Microsoft.Extensions.Caching.StackExchangeRedis;
 using Utils.Cache;
 using AdminService.Business.CustomMiddleware;
+using EventBusRabbitMqueue.Abstractions;
+using EventBusRabbitMqueue.Core;
+using RabbitMQ.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 // Cấu hình In-Memory Cache
@@ -29,6 +32,12 @@ builder.Services.AddStackExchangeRedisCache(options =>
     options.Configuration = "localhost:6379"; // Địa chỉ Redis server
     options.InstanceName = "MyApp_"; // Tiền tố cho các khóa cache
 });
+
+builder.Services.AddSingleton<IEventPublisher>(
+    new RabbitMQPublisher(
+        hostName: "localhost",
+        exchangeName: "user.payment.exchange",
+        exchangeType: ExchangeType.Direct));
 
 // Đăng ký các dịch vụ Cache
 builder.Services.AddScoped<InMemoryCacheService>();
