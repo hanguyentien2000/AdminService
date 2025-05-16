@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 //builder.Services.AddSingleton<IErrorLogger, MongoErrorLogger>();
 
-builder.Services.AddSingleton<IErrorLogger, MongoErrorLogger>();
+//builder.Services.AddSingleton<IErrorLogger, MongoErrorLogger>();
 
 builder.Services.AddScoped<IEventHandler<UserCreatedEvent>, UserCreatedHandler>();
 builder.Services.AddScoped<IMessageMiddleware<UserCreatedEvent>, LoggingMiddleware<UserCreatedEvent>>();

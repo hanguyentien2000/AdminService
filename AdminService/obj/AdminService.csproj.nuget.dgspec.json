@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\MSA\\AdminService\\AdminService\\AdminService.csproj": {}
+    "D:\\MSA\\AdminService\\AdminService\\AdminService.csproj": {}
   },
   "projects": {
-    "D:\\Code\\MSA\\AdminService\\AdminService\\AdminService.csproj": {
+    "D:\\MSA\\AdminService\\AdminService\\AdminService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\MSA\\AdminService\\AdminService\\AdminService.csproj",
+        "projectUniqueName": "D:\\MSA\\AdminService\\AdminService\\AdminService.csproj",
         "projectName": "AdminService",
-        "projectPath": "D:\\Code\\MSA\\AdminService\\AdminService\\AdminService.csproj",
-        "packagesPath": "C:\\Users\\Nguyen Tien Ha\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\MSA\\AdminService\\AdminService\\obj\\",
+        "projectPath": "D:\\MSA\\AdminService\\AdminService\\AdminService.csproj",
+        "packagesPath": "C:\\Users\\hant\\.nuget\\packages\\",
+        "outputPath": "D:\\MSA\\AdminService\\AdminService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nguyen Tien Ha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,14 +33,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj": {
-                "projectPath": "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj"
+              "D:\\MSA\\AdminService\\DataUtils\\DataUtils.csproj": {
+                "projectPath": "D:\\MSA\\AdminService\\DataUtils\\DataUtils.csproj"
               },
-              "D:\\Code\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj": {
-                "projectPath": "D:\\Code\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj"
+              "D:\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj": {
+                "projectPath": "D:\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj"
               },
-              "D:\\Code\\MSA\\AdminService\\Utils\\Utils.csproj": {
-                "projectPath": "D:\\Code\\MSA\\AdminService\\Utils\\Utils.csproj"
+              "D:\\MSA\\AdminService\\Utils\\Utils.csproj": {
+                "projectPath": "D:\\MSA\\AdminService\\Utils\\Utils.csproj"
               }
             }
           }
@@ -54,8 +54,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -119,24 +118,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj": {
+    "D:\\MSA\\AdminService\\DataUtils\\DataUtils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj",
+        "projectUniqueName": "D:\\MSA\\AdminService\\DataUtils\\DataUtils.csproj",
         "projectName": "DataUtils",
-        "projectPath": "D:\\Code\\MSA\\AdminService\\DataUtils\\DataUtils.csproj",
-        "packagesPath": "C:\\Users\\Nguyen Tien Ha\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\MSA\\AdminService\\DataUtils\\obj\\",
+        "projectPath": "D:\\MSA\\AdminService\\DataUtils\\DataUtils.csproj",
+        "packagesPath": "C:\\Users\\hant\\.nuget\\packages\\",
+        "outputPath": "D:\\MSA\\AdminService\\DataUtils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nguyen Tien Ha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -163,8 +162,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -191,24 +189,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj": {
+    "D:\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj",
+        "projectUniqueName": "D:\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj",
         "projectName": "EventBusRabbitMqueue",
-        "projectPath": "D:\\Code\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj",
-        "packagesPath": "C:\\Users\\Nguyen Tien Ha\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\MSA\\AdminService\\EventBusRabbitMqueue\\obj\\",
+        "projectPath": "D:\\MSA\\AdminService\\EventBusRabbitMqueue\\EventBusRabbitMqueue.csproj",
+        "packagesPath": "C:\\Users\\hant\\.nuget\\packages\\",
+        "outputPath": "D:\\MSA\\AdminService\\EventBusRabbitMqueue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nguyen Tien Ha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -235,8 +233,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -279,24 +276,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\MSA\\AdminService\\Utils\\Utils.csproj": {
+    "D:\\MSA\\AdminService\\Utils\\Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\MSA\\AdminService\\Utils\\Utils.csproj",
+        "projectUniqueName": "D:\\MSA\\AdminService\\Utils\\Utils.csproj",
         "projectName": "Utils",
-        "projectPath": "D:\\Code\\MSA\\AdminService\\Utils\\Utils.csproj",
-        "packagesPath": "C:\\Users\\Nguyen Tien Ha\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\MSA\\AdminService\\Utils\\obj\\",
+        "projectPath": "D:\\MSA\\AdminService\\Utils\\Utils.csproj",
+        "packagesPath": "C:\\Users\\hant\\.nuget\\packages\\",
+        "outputPath": "D:\\MSA\\AdminService\\Utils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nguyen Tien Ha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -323,8 +320,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -387,7 +383,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

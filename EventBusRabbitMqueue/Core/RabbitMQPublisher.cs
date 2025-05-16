@@ -32,10 +32,7 @@ namespace EventBusRabbitMqueue.Core
             var routingKey = typeof(T).Name;
 
             channel.ExchangeDeclare(_exchangeName, _exchangeType, durable: true);
-            channel.QueueDeclare(routingKey, durable: true, exclusive: false, autoDelete: false, arguments: new Dictionary<string, object>
-            {
-                ["x-message-ttl"] = 30000
-            });
+            channel.QueueDeclare(routingKey, durable: true, exclusive: false, autoDelete: false);
             channel.QueueBind(routingKey, _exchangeName, routingKey);
 
             var body = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(@event));

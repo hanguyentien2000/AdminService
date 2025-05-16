@@ -1378,10 +1378,7 @@
           "Microsoft.EntityFrameworkCore": "9.0.4"
         },
         "runtime": {
-          "DataUtils.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "DataUtils.dll": {}
         }
       },
       "EventBusRabbitMqueue/1.0.0": {
@@ -1393,10 +1390,7 @@
           "RabbitMQ.Client": "6.1.0"
         },
         "runtime": {
-          "EventBusRabbitMqueue.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "EventBusRabbitMqueue.dll": {}
         }
       },
       "Utils/1.0.0": {
@@ -1413,10 +1407,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "9.0.5"
         },
         "runtime": {
-          "Utils.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Utils.dll": {}
         }
       }
     }

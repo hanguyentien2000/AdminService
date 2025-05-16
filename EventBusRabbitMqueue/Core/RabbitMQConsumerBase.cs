@@ -48,15 +48,15 @@ namespace EventBusRabbitMqueue.Core
 
             channel.QueueDeclare(deadLetterQueue, durable: true, exclusive: false, autoDelete: false);
 
-            var args = new Dictionary<string, object>
-        {
-            { "x-dead-letter-exchange", "" },
-            { "x-dead-letter-routing-key", deadLetterQueue },
-            { "x-message-ttl", _ttlMilliseconds }
-        };
+        //    var args = new Dictionary<string, object>
+        //{
+        //    { "x-dead-letter-exchange", "" },
+        //    { "x-dead-letter-routing-key", deadLetterQueue },
+        //    { "x-message-ttl", _ttlMilliseconds }
+        //};
 
             channel.ExchangeDeclare(_exchangeName, ExchangeType.Direct, durable: true);
-            channel.QueueDeclare(queueName, durable: true, exclusive: false, autoDelete: false, arguments: args);
+            channel.QueueDeclare(queueName, durable: true, exclusive: false, autoDelete: false, arguments: null);
             channel.QueueBind(queueName, _exchangeName, routingKey: queueName);
 
             var consumer = new EventingBasicConsumer(channel);

@@ -572,3 +572,17 @@ D:\Code\MSA\AdminService\AdminService\bin\Debug\net8.0\MongoDB.Driver.dll
 D:\Code\MSA\AdminService\AdminService\bin\Debug\net8.0\SharpCompress.dll
 D:\Code\MSA\AdminService\AdminService\bin\Debug\net8.0\Snappier.dll
 D:\Code\MSA\AdminService\AdminService\bin\Debug\net8.0\ZstdSharp.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\DnsClient.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\SharpCompress.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\Snappier.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\StackExchange.Redis.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\ZstdSharp.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\EventBusRabbitMqueue.dll
+D:\MSA\AdminService\AdminService\bin\Debug\net8.0\EventBusRabbitMqueue.pdb
