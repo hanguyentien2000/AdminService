@@ -1,0 +1,41 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main  # Chạy pipeline khi có push lên nhánh main
+  pull_request:
+    branches:
+      - main  # Chạy khi có pull request vào nhánh main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up .NET Core
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: '8.0.0'  # Sử dụng .NET Core 8
+
+    - name: Restore dependencies
+      run: dotnet restore ./AdminService/AdminService.csproj
+
+    - name: Build the project
+      run: dotnet build ./AdminService/AdminService.csproj --configuration Release
+
+    - name: Publish the project
+      run: dotnet publish ./AdminService/AdminService.csproj --configuration Release --output ./out
+
+    - name: Build Docker image
+      run: |
+        docker build -t myservice:latest -f ./AdminService/Dockerfile ./src/AdminService/
+
+    - name: Push Docker image to Docker Hub (Optional)
+      run: |
+        docker login -u ${{ secrets.phunghieu519 }} -p ${{ secrets.hieu2152002 }}
+        docker tag adminservice:latest phunghieu519/adminservice:latest
+        docker push phunghieu519/adminservice:latest
