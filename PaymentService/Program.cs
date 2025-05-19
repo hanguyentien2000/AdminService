@@ -1,24 +1,33 @@
-﻿using EventBusRabbitMqueue;
-using Microsoft.AspNetCore.Authentication.BearerToken;
-using PaymentService.Controllers;
+﻿using EventBusRabbitMqueue.Abstractions;
+using EventBusRabbitMqueue.Logging;
+using EventBusRabbitMqueue.Middleware;
+using PaymentService.Business.Core;
+using PaymentService.Intergrate;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Cấu hình RabbitMQService
-builder.Services.AddSingleton<IRabbitMqueueHandler>(sp =>
-{
-    return new RabbitMqueueHandler("localhost"); // Địa chỉ của RabbitMQ server
-});
-
 // Add services to the container.
-
-// Đăng ký ConsumerController như một background service
-builder.Services.AddHostedService<ConsumerController>();
-
+// 📌 Đăng ký controller
 builder.Services.AddControllers();
+//builder.Services.AddSingleton<IErrorLogger, MongoErrorLogger>();
+
+//builder.Services.AddSingleton<IErrorLogger, MongoErrorLogger>();
+
+builder.Services.AddScoped<IEventHandler<UserCreatedEvent>, UserCreatedHandler>();
+builder.Services.AddScoped<IMessageMiddleware<UserCreatedEvent>, LoggingMiddleware<UserCreatedEvent>>();
+
+builder.Services.AddHostedService<UserCreatedConsumer>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+//builder.Services.AddAuthentication("Bearer")
+//    .AddJwtBearer("Bearer", options =>
+//    {
+//        options.Authority = "https://localhost:5110";
+//        options.Audience = "payment-api";
+//    });
+
+builder.Services.AddAuthorization(); // 
 
 var app = builder.Build();
 

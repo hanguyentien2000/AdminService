@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataUtils", "DataUtils\Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{16AE6DEC-21ED-4513-9133-168142663E38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBusRabbitMqueue", "EventBusRabbitMqueue\EventBusRabbitMqueue.csproj", "{1E5EFA85-1492-29EF-0017-3BD0E5DBC64F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{16AE6DEC-21ED-4513-9133-168142663E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16AE6DEC-21ED-4513-9133-168142663E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16AE6DEC-21ED-4513-9133-168142663E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5EFA85-1492-29EF-0017-3BD0E5DBC64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5EFA85-1492-29EF-0017-3BD0E5DBC64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5EFA85-1492-29EF-0017-3BD0E5DBC64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5EFA85-1492-29EF-0017-3BD0E5DBC64F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{B3140BD1-661A-4A7E-AF14-DE0E55D41C93} = {D0696D67-DE81-43C5-AD65-1D1B3A0E53E3}
 		{C8F99AEA-D361-4C4E-B4F4-842A30F167D9} = {B3140BD1-661A-4A7E-AF14-DE0E55D41C93}
 		{16AE6DEC-21ED-4513-9133-168142663E38} = {6A2B3D8C-2020-4BED-9EB4-36DFDCC2A941}
+		{1E5EFA85-1492-29EF-0017-3BD0E5DBC64F} = {B3140BD1-661A-4A7E-AF14-DE0E55D41C93}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E788E92D-D208-4ECF-9C88-8679BBCFA975}

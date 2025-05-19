@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataUtils\DataUtils.csproj" />
+    <ProjectReference Include="..\EventBusRabbitMqueue\EventBusRabbitMqueue.csproj" />
     <ProjectReference Include="..\Utils\Utils.csproj" />
   </ItemGroup>
 
